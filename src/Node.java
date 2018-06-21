@@ -87,7 +87,7 @@ public class Node implements Comparable{
                 e.printStackTrace();
             }
         }
-        return val; //-1 is used as an error signal; the value of a bessel root is never negative
+        return val;
     }
 
     @Override
